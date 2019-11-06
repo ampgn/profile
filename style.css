@@ -1,0 +1,97 @@
+body {
+  background-color: #ECE5F0;
+  font-family:'Lora', serif,'Open Sans', sans-serif, 'Jomolhari', serif;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+h1{
+  font-size: 32px;
+}
+h2 {
+  margin: 20px auto;
+  font-size: 30px;
+  font-weight: 500
+}
+p {
+  font-family: 'Lora', serif;
+  font-weight: 300
+  text
+}
+li {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  text-decoration: none;
+  color: black;
+}
+ul {
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+a {
+  color: black;
+  cursor: pointer;
+  font-size: 30px;
+}
+.btn-green {
+  background-color: #7A89C2;
+  color: white;
+  border-radius: 5px;
+  font-weight: 400;
+  text-decoration: none;
+  size: 20px;
+  padding: 16px 16px;
+  text-align: center;
+  display: inline-block
+}
+.header {
+  color: #3a6186;
+  font-weight: 600;
+}
+.card-white {
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px auto;
+  text-align: center;
+  width: 85%;
+  text-justify: auto;
+  border: 1px solid lightgrey
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+#banner {
+  background-size: cover;
+  padding: 150px 0px;
+  text-align: center;
+  background-image: url("https://picsum.photos/1000/600?random");
+  color: white;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
